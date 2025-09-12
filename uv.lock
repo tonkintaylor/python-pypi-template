@@ -2663,7 +2663,7 @@ wheels = [
 ]
 
 [[package]]
-name = "whitelable"
+name = "whitelabel"
 source = { editable = "." }
 
 [package.dev-dependencies]

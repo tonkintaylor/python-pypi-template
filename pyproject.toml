@@ -12,7 +12,7 @@ requires = [
 ]
 
 [project]
-name = "whitelable"
+name = "whitelabel"
 description = "A minimal Python package template with a simple Hello World example."
 readme = "README.md"
 license = "MIT"
@@ -74,7 +74,7 @@ source = "vcs"
 "Source Archive" = "https://github.com/tonkintaylor/YOUR_REPOSITORY/archive/{commit_hash}.zip"
 
 [tool.hatch.build.hooks.vcs]
-version-file = "src/whitelable/_version.py"
+version-file = "src/whitelabel/_version.py"
 
 [tool.ruff]
 line-length = 88

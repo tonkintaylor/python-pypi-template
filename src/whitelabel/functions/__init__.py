@@ -1,4 +1,4 @@
-"""Functions module for the whitelable package."""
+"""Functions module for the whitelabel package."""
 
 from .hello_world import hello_world
 

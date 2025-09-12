@@ -1,6 +1,6 @@
 """Tests for the hello_world function."""
 
-from whitelable.functions.hello_world import hello_world
+from whitelabel.functions.hello_world import hello_world
 
 
 def test_hello_world():

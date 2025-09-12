@@ -1,4 +1,4 @@
-# Whitelable Package Guidelines
+# whitelabel Package Guidelines
 
 ## API Communication
 
@@ -8,7 +8,7 @@
 ## Imports
 
 - When importing internal modules, do not include the "src" folder in the import path as it is already defined in `pyproject.toml`.
-- Example: `from whitelable.functions import hello_world` instead of `from src.whitelable.functions import hello_world`.
+- Example: `from whitelabel.functions import hello_world` instead of `from src.whitelabel.functions import hello_world`.
 
 ## Package API Guidelines
 

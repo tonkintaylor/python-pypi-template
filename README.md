@@ -21,16 +21,16 @@ Click the "Use this template" button on GitHub to create your own repository:
 
 1. Rename directories:
    ```bash
-   mv src/whitelable src/YOUR_PACKAGE_NAME
-   mv tests/whitelable tests/YOUR_PACKAGE_NAME
+   mv src/whitelabel src/YOUR_PACKAGE_NAME
+   mv tests/whitelabel tests/YOUR_PACKAGE_NAME
    ```
 
 2. Update `pyproject.toml`:
-   - Change `name = "whitelable"` to `name = "YOUR_PACKAGE_NAME"`
+   - Change `name = "whitelabel"` to `name = "YOUR_PACKAGE_NAME"`
    - Update author information
    - Update repository URLs
 
-3. Update import statements in your code from `whitelable` to `YOUR_PACKAGE_NAME`
+3. Update import statements in your code from `whitelabel` to `YOUR_PACKAGE_NAME`
 
 
 ## Next Steps
