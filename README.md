@@ -32,40 +32,6 @@ Click the "Use this template" button on GitHub to create your own repository:
 
 3. Update import statements in your code from `whitelable` to `YOUR_PACKAGE_NAME`
 
-### 4. Test your setup
-
-```bash
-# Run tests
-pytest
-
-# Run the hello world example
-python -c "from YOUR_PACKAGE_NAME.functions.hello_world import hello_world; print(hello_world('World'))"
-```
-
-## Project Structure
-
-```
-├── src/YOUR_PACKAGE_NAME/     # Main package
-│   ├── functions/            # Your functions
-│   └── __init__.py
-├── tests/YOUR_PACKAGE_NAME/  # Tests
-├── pyproject.toml           # Package configuration
-└── README.md                # This file
-```
-
-## Usage Example
-
-```python
-from YOUR_PACKAGE_NAME.functions.hello_world import hello_world
-
-# Basic usage
-result = hello_world()
-print(result)  # "Hello, World!"
-
-# With custom name
-result = hello_world("Alice")
-print(result)  # "Hello, Alice!"
-```
 
 ## Next Steps
 
@@ -73,7 +39,17 @@ print(result)  # "Hello, Alice!"
 2. Add your functions to `src/YOUR_PACKAGE_NAME/functions/`
 3. Write tests in `tests/YOUR_PACKAGE_NAME/`
 4. Update `pyproject.toml` with your package details
-5. Build and publish: `python -m build && twine upload dist/*`
+
+## CI/CD Configuration
+
+### SonarQube Setup
+
+To enable SonarQube analysis in your CI/CD pipeline, set the following variables:
+
+- `SONAR_TOKEN`: Set as a **secret** in your CI/CD platform (authentication token for SonarQube)
+- `SONAR_PROJECT_KEY`: Set as an **environment variable** in your CI/CD pipeline (unique key for your project, e.g., `your-org_your-repo`)
+
+`SONAR_HOST_URL` is typically configured at the organization level.
 
 ## License
 
